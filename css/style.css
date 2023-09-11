@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Monserrat;
+}
+
+.main__wrap {
+  display: flex;
+}
+.main__title {
+  font-family: 68px;
+  font-weight: 500;
+  color: #156963;
+}
+.main__texts {
+  padding: 186px 72px 110px 72px;
+}
+.main__text {
+  color: #2c1500;
+  font-weight: 400;
+  font-size: 18px;
+}
+.main__btns {
+  display: flex;
+}
+.main__btn {
+  display: flex;
+  flex-direction: column;
+}
+.main__link {
+  color: #333;
+  font-weight: 500;
+  font-size: 24px;
+  text-decoration: none;
+}
+.main__info {
+  color: #156963;
+  font-size: 32px;
+  font-weight: 500;
+}
